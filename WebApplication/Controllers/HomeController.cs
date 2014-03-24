@@ -6,6 +6,7 @@ using System.Web.Mvc;
 namespace WebApplication.Controllers {
     public class HomeController : Controller {
         public ActionResult Index() {
+            ViewBag.Message = "Test message";
             return View();
         }
     }
